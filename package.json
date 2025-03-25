@@ -1,3 +1,11 @@
-"scripts": {
-  "build": "npm run build"
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build"
+  },
+  "dependencies": {
+    "@actions/core": "1.6.0",
+    "@actions/http-client": "^2.0.0"
+  }
 }
